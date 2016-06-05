@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fake.lovecash.fragments.FragmentAbout">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="114dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Привет. Вы попали на страничку разработчика приложения LoveCash. Мы поможем вам не только не потеряться в ежедневных расходах, но и отложить деньги на нужную покупку, не утруждая себя нудными подсчетами."
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|top" />
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageView2"
+    android:layout_gravity="center_horizontal|top"
+    android:src="@drawable/piggy_bank"/>
+</FrameLayout>
